@@ -66,7 +66,7 @@
 
 <nav class="navbar navbar-dark p-1 mb-2 text-white" style="background-color: #066820;" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand link-light" href="{{route('visitante.index')}}"><h2 style="font-family: 'Iceland', cursive">DER // SISTEMA DE CONTROLE DE ACESSO DE VISITANTES</h2></a>
+        <a class="navbar-brand link-light" href="{{route('visitante.index')}}"><h2 style="font-family: 'Iceland', cursive">SISTEMA DE CADASTRO DE VISITANTES</h2></a>
 
     <ul class = "nav justify-content-end">
         <li class="nav-item ">
@@ -75,9 +75,7 @@
         <li class="nav-item">
             <a class="nav-link active link-light" href="{{route('visitante.index')}}">Visitantes</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link active link-light" href="{{route('relatorio.index')}}">Relatório</a>
-        </li>
+        
         <li class="nav-item">
             @if (Route::has('password.request'))
                 <a class="nav-link active link-light" href="{{ route('password.request') }}">
